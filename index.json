@@ -1,0 +1,8 @@
+﻿{
+    "schema_version":  "1.0",
+    "description":  "Community-driven WASM app registry for AIOS",
+    "name":  "aios-official-store",
+    "blocks":  [
+
+               ]
+}
