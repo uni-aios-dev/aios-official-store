@@ -1,0 +1,10 @@
+[package]
+name = "aios-store-indexgen"
+version = "0.1.0"
+edition = "2021"
+description = "Generates the AIOS official store index.json from block manifests"
+
+[dependencies]
+serde_json = { workspace = true }
+sha2 = { workspace = true }
+hex = { workspace = true }

@@ -1,8 +1,32 @@
-﻿{
-    "schema_version":  "1.0",
-    "description":  "Community-driven WASM app registry for AIOS",
-    "name":  "aios-official-store",
-    "blocks":  [
-
-               ]
+{
+  "blocks": [
+    {
+      "author": "AIOS Team",
+      "capabilities": [],
+      "description": {
+        "en": "Stateful expression calculator with ans, variables and history",
+        "ru": "Арифметический калькулятор с состоянием: ans, переменные и история"
+      },
+      "name": "calculator",
+      "version": "1.0.0",
+      "wasm_hash": "sha256:78fdddc862d9fcd63e865ab981abcfb79689ff1ed21edeb99e14d53f366286c2",
+      "wasm_size_bytes": 113029
+    },
+    {
+      "author": "AIOS Team",
+      "capabilities": [],
+      "description": {
+        "en": "Stateful console minesweeper with flood fill and flags",
+        "ru": "Консольный сапёр с состоянием: раскрытие областей и флаги"
+      },
+      "name": "minesweeper",
+      "version": "1.0.0",
+      "wasm_hash": "sha256:f1bb94cd4f6871bf8d8c187caf3094fb98aec3b1bc2757bc0fa1455313ae0b08",
+      "wasm_size_bytes": 97109
+    }
+  ],
+  "description": "Community-driven WASM app registry for AIOS",
+  "description_ru": "Сообщественный реестр WASM-блоков для AIOS",
+  "name": "aios-official-store",
+  "schema_version": "1.0"
 }

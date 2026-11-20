@@ -1,0 +1,11 @@
+[package]
+name = "aios-block-calculator"
+version = "1.0.0"
+edition = "2021"
+description = "AIOS store block: stateful expression calculator"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+aios-block-sdk = { path = "../../sdk/aios-block-sdk" }

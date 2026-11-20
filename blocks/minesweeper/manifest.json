@@ -1,0 +1,12 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": {
+    "en": "Stateful console minesweeper with flood fill and flags",
+    "ru": "Консольный сапёр с состоянием: раскрытие областей и флаги"
+  },
+  "author": "AIOS Team",
+  "capabilities": [],
+  "wasm_hash": "sha256:placeholder",
+  "wasm_size_bytes": 0
+}

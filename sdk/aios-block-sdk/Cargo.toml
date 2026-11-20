@@ -1,0 +1,9 @@
+[package]
+name = "aios-block-sdk"
+version = "0.1.0"
+edition = "2021"
+description = "Minimal guest SDK for AIOS WASM blocks using the host bincode IPC ABI"
+
+[dependencies]
+bincode = { workspace = true }
+serde = { workspace = true }

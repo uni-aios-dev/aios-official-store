@@ -1,0 +1,11 @@
+[package]
+name = "aios-block-minesweeper"
+version = "1.0.0"
+edition = "2021"
+description = "AIOS store block: stateful console minesweeper"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+aios-block-sdk = { path = "../../sdk/aios-block-sdk" }

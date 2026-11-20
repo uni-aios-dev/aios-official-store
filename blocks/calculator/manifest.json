@@ -1,0 +1,12 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": {
+    "en": "Stateful expression calculator with ans, variables and history",
+    "ru": "Арифметический калькулятор с состоянием: ans, переменные и история"
+  },
+  "author": "AIOS Team",
+  "capabilities": [],
+  "wasm_hash": "sha256:placeholder",
+  "wasm_size_bytes": 0
+}
